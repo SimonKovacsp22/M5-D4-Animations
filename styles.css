@@ -1,0 +1,145 @@
+.jumbotron{
+
+    background-image: url("https://images.unsplash.com/photo-1530330222720-9e081f1e46bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    color: #f8f8f8;
+    
+    }
+    
+    .lead-p {
+        font-weight: 400;
+    }
+    
+    .lead-h1 {
+        font-weight: 700;
+    }
+    
+    .my-border {
+        width: 25%;
+        margin-left: 0;
+        border-color: #f8f8f8;
+    }
+    
+    .jumbotron {
+        border-radius: 0%;
+    }
+    
+    .des-pic {
+       
+        border: 1px solid black;
+        background-color: #f8f8f8;
+        text-align: center;
+        
+    
+    }
+    .flex-row {
+        display: flex;
+    }
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img-con {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .img-tes-1{
+      background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+      background-size: cover;
+      background-position: 50%;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+    }
+    
+    .img-tes-2{
+        background-image: url("https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydHJhaXR8ZW58MHx8MHx8&w=1000&q=80");
+        background-size:cover;
+        background-position:center;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+       
+    
+      }
+      .img-tes-3{
+        background-image: url("https://i.pinimg.com/564x/1f/ae/ef/1faeef67c132e4b6c91e4f17de6b4e49--face-reference-portrait-reference.jpg");
+        background-size:cover;
+        background-position:center;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+       
+    
+      }
+      .img-tes-ph {
+        background-image: url("https://via.placeholder.com/100x100");
+        background-size:cover;
+        background-position:center;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+    
+    .padding-bottom-30{
+        padding-bottom: 30px;
+    }
+    .align-center {
+        align-items: center;
+    }
+    .just-center {
+        justify-content: center;
+    }
+    
+    .sticky {
+        position:sticky;
+        top:0px
+    }
+    
+    .shadow-ef {
+        box-shadow: 5px 5px 15px 5px #000000;
+        border-radius: 20px;
+        padding-top: 30px;
+        background-color: var(--danger);
+    }
+    
+    .testimonials {
+        margin-top: 20px;
+    }
+    
+    .fade-in {
+       animation: jumbo_animation 0.8s backwards ease-in-out .5s;
+    }
+    
+    
+    @keyframes jumbo_animation {
+        from {opacity: 0}
+        to {opacity: 1}
+    }
+    
+    tbody p {
+        width: 300px;
+    }
+    
+    .btn-hover {
+        border-radius: 0 ;
+        background-color: #f8f8f8;
+        border: 1px solid;
+        color: #000;
+        border-color: #000;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        transition: box-shadow 0.3s ease-in-out;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .btn-hover:hover {
+        
+        box-shadow: 5px 3px 2px rgba(0,0,0,0.3);
+      
+    }
+    
